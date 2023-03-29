@@ -1,0 +1,48 @@
+.container {
+  border: #000 solid 2px;
+  width: 50%;
+  box-shadow:
+    0 5px 5px rgba(39, 28, 28, 0.82),
+    0 5px 5px rgba(10, 1, 1, 0.82);
+  margin: auto;
+}
+
+h1 {
+  text-align: left;
+  font-size: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  color: rgba(128, 128, 128, 0.555);
+}
+
+.add-task {
+  border: 0;
+}
+
+.to-do {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: -40px;
+}
+
+.lst {
+  list-style-type: none;
+}
+
+.list-head .fa-solid.fa-arrows-rotate {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: -35px;
+  color: rgba(128, 128, 128, 0.425);
+}
+
+.fa-ellipsis-vertical {
+  margin-left: 98%;
+  margin-top: -18px;
+  color: rgba(128, 128, 128, 0.425);
+}
