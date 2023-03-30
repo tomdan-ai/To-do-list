@@ -20,16 +20,27 @@ h1 {
 
 .add-task {
   border: 0;
+  outline: none;
 }
 
 .to-do {
+  display: none;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-left: -40px;
 }
 
+.txt-inp {
+  border: 0;
+  outline: none;
+}
+
 .lst {
+  padding: 5px;
+  display: flex;
+  width: 98%;
+  justify-content: space-between;
   list-style-type: none;
 }
 
@@ -42,7 +53,5 @@ h1 {
 }
 
 .fa-ellipsis-vertical {
-  margin-left: 98%;
-  margin-top: -18px;
   color: rgba(128, 128, 128, 0.425);
 }
