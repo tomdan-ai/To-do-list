@@ -1,4 +1,6 @@
 import './styles.css';
+import './interactive.js'
+
 
 const activities = [
   {
@@ -25,6 +27,19 @@ const activities = [
 
 const list = document.querySelector('.to-do');
 
+
+const addTask = (activities, newTask) => {
+  taskArray.push(newTask);
+  return taskArray;
+}
+
+const newTask = "Task 4";
+
+const updatedTasks = addTask(activities, newTask);
+
+
+
+
 activities.forEach((activities) => {
   list.innerHTML += `
      <li class="lst">
@@ -35,3 +50,4 @@ activities.forEach((activities) => {
     `;
 // list.appendchild(activities)
 });
+
