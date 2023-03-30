@@ -72,7 +72,7 @@ function renderActivities() {
 function addActivity(description) {
   const newActivity = {
     index: activities.length,
-    description: description,
+    description,
     completed: false,
   };
   activities.push(newActivity);
@@ -91,7 +91,7 @@ function deleteActivity(index) {
 
 // Clear all completed activities from the list
 function clearCompletedActivities() {
-  activities = activities.filter(activity => !activity.completed);
+  activities = activities.filter((activity) => !activity.completed);
   saveActivities();
 }
 
@@ -102,7 +102,7 @@ function saveActivities() {
 }
 
 // Event listener for form submit
-form.addEventListener('submit', e => {
+form.addEventListener('submit', (e) => {
   e.preventDefault();
   const description = input.value.trim();
   if (description !== '') {
@@ -120,4 +120,3 @@ clearBtn.addEventListener('click', () => {
 renderActivities();
 
 /* NEWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW */
-
