@@ -16,6 +16,12 @@ h1 {
   display: flex;
   justify-content: center;
   color: rgba(128, 128, 128, 0.555);
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #000;
+  font-weight: 900;
 }
 
 .add-task {
@@ -52,6 +58,11 @@ h1 {
   color: rgba(128, 128, 128, 0.425);
 }
 
-.fa-ellipsis-vertical {
+.fa-trash-alt {
   color: rgba(128, 128, 128, 0.425);
+  cursor: pointer;
+}
+
+.fa-trash-alt:hover {
+  color: #000;
 }

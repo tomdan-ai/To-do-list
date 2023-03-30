@@ -1,5 +1,5 @@
 import './styles.css';
-import './interactive.js';
+import '../modules/interactive.js';
 
 const activities = [
   {
