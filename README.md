@@ -2,10 +2,8 @@
 
 
 <div align="center">
-  <img src="images/Logo.png" alt="GDC Logo" width="140"  height="auto" />
-  <br/>
 
-  <h3><b>To-Do-List README</b></h3>
+ <h3><b>To-Do-List README</b></h3>
 
 </div>
 
@@ -56,6 +54,10 @@ The to do list is a javascript project built with webpack to keep track of the a
 - **[JAVASCRIPT]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Live Demo <a name"Live-demo"></a>
+
+Click <a href="https://tomdan-ai.github.io/To-do-list/dist/">here</a> to see a live demo of the To-do List Project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
