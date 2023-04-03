@@ -5,28 +5,7 @@ const list = document.querySelector('.to-do');
 const clearBtn = document.querySelector('.btn');
 
 // Initialize the activities array from local storage or with default values
-let activities = JSON.parse(localStorage.getItem('activities')) || [
-  {
-    index: 0,
-    description: 'Complete house chores',
-    completed: false,
-  },
-  {
-    index: 1,
-    description: 'Buy Groceries',
-    completed: false,
-  },
-  {
-    index: 2,
-    description: 'Complete To Do list project',
-    completed: false,
-  },
-  {
-    index: 3,
-    description: 'Play Call of Duty',
-    completed: false,
-  },
-];
+let activities = JSON.parse(localStorage.getItem('activities')) || [];
 
 // Render the list of activities
 function renderActivities() {

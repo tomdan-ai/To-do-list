@@ -45,3 +45,6 @@ activities.forEach((activities) => {
     `;
 // list.appendchild(activities)
 });
+
+
+
